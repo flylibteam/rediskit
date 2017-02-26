@@ -7,9 +7,9 @@ Usage:
 your own project.
 like 
 <pre><code>
-<dependency>
-	<groupId>net.flylib</groupId>
-	<artifactId>rediskit</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<dependency>
+		<groupId>net.flylib</groupId>
+		<artifactId>rediskit</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
 	</dependency>
 </pre></code>
