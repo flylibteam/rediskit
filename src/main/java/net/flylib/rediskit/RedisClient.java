@@ -11,6 +11,7 @@ public class RedisClient implements InitializingBean {
 	private JedisPool jedisPool;// 非切片连接池
 
 	public RedisClient() {
+//		Instantiate jedis here is error.
 //		jedis = jedisPool.getResource();
 	}
 	
