@@ -4,7 +4,6 @@ import org.springframework.beans.factory.InitializingBean;
 
 import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPool;
-import redis.clients.jedis.Protocol;
 
 public class RedisClient implements InitializingBean {
 	private Jedis jedis;// 非切片额客户端连接
@@ -35,5 +34,9 @@ public class RedisClient implements InitializingBean {
 
 	public String get(final String key) {
 		return jedis.get(key);
+	}
+	
+	public Jedis getJedis() {
+		return jedis;
 	}
 }
