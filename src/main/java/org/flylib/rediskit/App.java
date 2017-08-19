@@ -1,4 +1,4 @@
-package net.flylib.rediskit;
+package org.flylib.rediskit;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;

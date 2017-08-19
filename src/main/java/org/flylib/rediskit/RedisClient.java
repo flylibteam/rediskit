@@ -1,4 +1,4 @@
-package net.flylib.rediskit;
+package org.flylib.rediskit;
 
 import java.util.Map;
 import java.util.Set;

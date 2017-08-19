@@ -27,7 +27,7 @@ http://www.springframework.org/schema/tx http://www.springframework.org/schema/t
         <constructor-arg name="database" value="${redis.db.index}" type="int" />
     </bean>
     
-    <bean id="redisClient" class="net.flylib.rediskit.RedisClient">
+    <bean id="redisClient" class="org.flylib.rediskit.RedisClient">
     	<property name="jedisPool" ref="jedisPool"/>
     </bean>
 </beans>
